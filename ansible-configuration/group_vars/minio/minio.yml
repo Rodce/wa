@@ -1,0 +1,14 @@
+---
+minio_server_datadirs:
+  - /opt/minio-data-1
+  - /opt/minio-data-2
+minio_server_cluster_nodes:
+  - 'http://debian-a.rodce-adm.pp.ua/opt/minio-data-1'
+  - 'http://debian-a.rodce-adm.pp.ua/opt/minio-data-2'
+  - 'http://debian-b.rodce-adm.pp.ua/opt/minio-data-1'
+  - 'http://debian-b.rodce-adm.pp.ua/opt/minio-data-2'
+  
+minio_server_addr: ":9091"
+minio_install_client: false
+minio_access_key: "minio"
+minio_secret_key: "minio102030"

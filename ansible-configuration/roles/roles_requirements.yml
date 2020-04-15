@@ -1,0 +1,68 @@
+- src: git+https://github.com/yetu/ansible-apt.git
+  version: "v0.1.4"
+  name: ansible-apt
+
+- src: git+https://github.com/yetu/ansible-hostname.git
+  version: "v0.1.2"
+  name: ansible-hostname
+
+- src: git+https://github.com/Stouts/Stouts.sudo.git
+  version: "1.0.0"
+
+- src: git+https://github.com/ANXS/openssh.git
+  version: "v1.0.1"
+  name: ANXS.openssh
+
+- src: git+https://github.com/knopki/ansible-locale.git
+  version: "v1.0.3"
+  name: knopki.locale
+
+- src: git+https://github.com/ANXS/postgresql.git
+  version: "v1.1.1"
+  name: ANXS.postgresql
+
+- src: git+https://github.com/AutomationWithAnsible/ansible-nginx.git
+  version: "v1.0.3"
+  name: ansible-nginx
+
+
+- src: git+https://github.com/geerlingguy/ansible-role-gitlab.git
+  version: "2.5.3"
+  name: gitlab-server
+
+
+- src: git+https://github.com/bertvv/ansible-role-bind.git
+  version: "v4.1.0"
+  name: bind
+
+- src: git+https://github.com/atosatto/ansible-minio.git
+  version: "v1.1.0"
+  name: minio
+
+- src: git+https://github.com/geerlingguy/ansible-role-haproxy.git
+  version: "1.1.2"
+  name: haproxy
+
+- src: git+https://github.com/geerlingguy/ansible-role-docker.git
+  version: "2.7.0"
+  name: docker
+
+- src: https://github.com/andrewrothstein/ansible-etcd-cluster.git
+  version: "v1.2.3"
+  name: etcd-cluster
+
+- src: https://github.com/andrewrothstein/ansible-etcd.git
+  version: "v2.1.25"
+  name: andrewrothstein.etcd
+
+- src: https://github.com/andrewrothstein/ansible-unarchive-deps.git
+  version: "v1.1.2"
+  name: andrewrothstein.unarchive-deps
+
+- src: https://github.com/ansible-community/ansible-consul.git
+  version: "v2.5.4"
+  name: brianshumate.consul
+
+- src: https://github.com/Rodce/ansible-vault.git
+  version: "v2.5.3"
+  name: rodce.vault

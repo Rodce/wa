@@ -1,0 +1,8 @@
+---
+
+- name: haproxy.yml
+  hosts: haproxy
+  become: True
+
+  roles:
+    - { role: haproxy,      tags: ["haproxy"] }

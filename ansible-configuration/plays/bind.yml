@@ -1,0 +1,8 @@
+---
+
+- name: bind.yml
+  hosts: centos-c
+  become: True
+
+  roles:
+    - { role: bind,             tags: ["bind"] }

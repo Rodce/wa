@@ -1,0 +1,8 @@
+---
+
+- name: vault.yml
+  hosts: vault
+  become: True
+
+  roles:
+    - { role: brianshumate.vault,             tags: ["vault"] }

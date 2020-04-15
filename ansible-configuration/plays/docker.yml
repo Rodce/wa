@@ -1,0 +1,8 @@
+---
+
+- name: docker.yml
+  hosts: centos-c
+  become: True
+
+  roles:
+    - { role: docker,             tags: ["docker"] }

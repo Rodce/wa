@@ -1,0 +1,8 @@
+---
+
+- name: gitlab_server.yml
+  hosts: gitlab_server
+  become: True
+
+  roles:
+    - { role: gitlab-server,      tags: ["gitlab_server"] }

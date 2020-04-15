@@ -1,0 +1,8 @@
+---
+
+- name: etcd.yml
+  hosts: etcd_cluster
+  become: True
+
+  roles:
+    - { role: etcd-cluster,             tags: ["etcd_cluster"] }

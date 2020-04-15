@@ -1,0 +1,9 @@
+vault_version: "1.4.0"
+vault_backend: "etcd"
+vault_etcd: http://debian-a.rodce-adm.pp.ua:2379,http://debian-b.rodce-adm.pp.ua:2379
+
+vault_etcd_ha_enabled: true
+# vault_address: vault-b.rodce-adm.pp.ua
+# vault_cluster_address: vault-b.rodce-adm.pp.ua
+vault_iface: eth1
+# vault_log_level: debug

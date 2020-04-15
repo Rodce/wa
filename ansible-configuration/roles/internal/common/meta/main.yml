@@ -1,0 +1,17 @@
+---
+dependencies:
+  - {role: ansible-apt,             tags: apt }
+  - {role: ansible-hostname,        tags: hostname }
+  - {role: Stouts.sudo,             tags: sudo }
+  - {role: ANXS.openssh,            tags: openssh }
+  - {role: knopki.locale,           tags: locale }
+  - {role: geerlingguy.gitlab,      tags: gitlab_server }
+  - {role: bertvv.bind,             tags: bind }
+  - {role: atosatto.minio,          tags: minio }
+  - {role: geerlingguy.haproxy,     tags: haproxy }
+  - {role: geerlingguy.docker,      tags: docker }
+  - {role: andrewrothstein.etcd-cluster,   tags: etcd_cluster }
+  - {role: andrewrothstein.etcd,           tags: etcd }
+  - {role: andrewrothstein.unarchive-deps, tags: unarchive-deps }
+  - {role: brianshumate.consul,            tags: consul }
+  - {role: brianshumate.vault,            tags: vault }

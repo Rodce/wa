@@ -1,0 +1,6 @@
+---
+- name: "Install Minio"
+  hosts: minio
+  become: yes
+  roles:
+    - { role: minio,  tags: ["minio"] }
